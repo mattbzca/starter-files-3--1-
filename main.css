@@ -24,7 +24,11 @@ a:focus, a:hover {
 }
 
 body {
-
+	font-family: 'IBM', sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333333;
+	padding: 20px;
 }
 
 code {
@@ -65,4 +69,8 @@ p {
 
 #how-does-it-work, #influence, #joke {
 
+}
+@font-face {
+	font-family: 'IBM';
+	src: url('fonts/IBMR.ttf') format('truetype'), url('fonts/IBMB.ttf') format('truetype'), url('fonts/IBMM.ttf') format('truetype');
 }
