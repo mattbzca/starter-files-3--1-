@@ -1,0 +1,2 @@
+Author: Matthew Tan
+Purpose: This second Week 4 assignment will focus on utilizing effective typography for the webpage using the given starter-file. The main.css is the only file being modified for stylization as prompted in the instructions. This has been W3C validated.
