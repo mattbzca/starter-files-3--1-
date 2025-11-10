@@ -26,8 +26,8 @@ a:focus, a:hover {
 body {
 	font-family: 'IBM', sans-serif;
 	line-height: 1.6;
-	background-color: #f4f4f4;
-	color: #333333;
+	background-color: #130a0a;
+	color: #ecdfdf;
 	padding: 20px;
 }
 
@@ -36,23 +36,30 @@ code {
 }
 
 h1, h2, h3 {
-
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	max-width: 800px;
 }
 
 h1 {
-
+	font-size: 2.6em;
 }
 
 h2 {
-
+	font-weight: normal;
+	font-size: 1.7em;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #333333;
 }
 
 h3 {
-	
+	font-weight: bold;
+	font-size: 1.09em;
+	font-style: italic;
 }
 
 header {
-	
+	text-shadow: #dd45c4 3px 2px 3px;
 }
 
 main {
@@ -61,6 +68,27 @@ main {
 
 p {
 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #fa7a6e;}
+
+a:before {
+	content: "➢ ";
+	color: #fa5dfa;
+}
+
+a:visited {
+	color: #25eb56;
+}
+
+a:hover {
+	color: #75d0e0;
+	background-color: #333333;
 }
 
 #intro {
