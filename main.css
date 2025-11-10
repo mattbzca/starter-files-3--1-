@@ -32,7 +32,10 @@ body {
 }
 
 code {
-	
+	color: #f70000;
+	font-size: 1.3em;
+	font-weight: bold;
+	font-style: oblique;
 }
 
 h1, h2, h3 {
@@ -42,19 +45,19 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.6em;
+	font-size: 2.8em;
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 1.7em;
+	font-size: 1.9em;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #333333;
 }
 
 h3 {
 	font-weight: bold;
-	font-size: 1.09em;
+	font-size: 1.2em;
 	font-style: italic;
 }
 
@@ -65,13 +68,19 @@ header {
 }
 
 main {
-
+	margin-top: 40px;
 }
 
 p {
 	margin-bottom: 1em;
 	max-width: 900px;
 	line-height: 1.9em;
+	text-indent: 2em;
+}
+p:first-letter {
+	font-weight: bold;
+	font-size: 1.2em;
+	letter-spacing: 0.08em;
 }
 
 a {
@@ -99,18 +108,28 @@ a:hover {
 	width: 23%;
 	float: left;
 	margin-right: 2em;
-	border:#ecdfdf 2px dotted;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+#intro h2 {
+	text-align: center;
 }
 
 #how-does-it-work, #influence, #joke {
 	width: 21%;
 	float: left;
 	margin-right: 1.2em;
-	border:#ecdfdf 2px dotted;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+#how-does-it-work h2 {
+	text-align: center;
+}
+#influence h2 {
+	text-align: center;
+}
+#joke h2 {
+	text-align: center;
 }
 @font-face {
 	font-family: 'IBM';
