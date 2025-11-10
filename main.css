@@ -45,30 +45,35 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.8em;
+	font-size: 3.5em;
+	margin-bottom: -30px;
+	letter-spacing: 0.2em;
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 1.9em;
+	font-size: 2em;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #333333;
+	text-align: center;
 }
 
 h3 {
 	font-weight: bold;
 	font-size: 1.2em;
 	font-style: italic;
+	text-align: center;
 }
 
 header {
 	text-shadow: #dd45c4 3px 2px 3px;
 	margin-top: -50px;
-	padding-left: 820px;
+	padding-left: 790px;
 }
 
 main {
 	margin-top: 40px;
+	word-spacing: 0.15em;
 }
 
 p {
@@ -121,15 +126,6 @@ a:hover {
 	margin-right: 1.2em;
 	padding-left: 1em;
 	padding-right: 1em;
-}
-#how-does-it-work h2 {
-	text-align: center;
-}
-#influence h2 {
-	text-align: center;
-}
-#joke h2 {
-	text-align: center;
 }
 @font-face {
 	font-family: 'IBM';
